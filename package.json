@@ -1,0 +1,16 @@
+{
+  "name": "24-7-music-bot",
+  "version": "1.1.0",
+  "description": "HESAM TVS DISCORD RADIO BOT 24/7",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "cnnd",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "opusscript": "^0.0.7",
+    "ytdl-core": "^4.8.0"
+  }
+}

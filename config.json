@@ -1,0 +1,5 @@
+{
+    "token": "TOKEN",
+    "channel_id": "CHANNEL ID",
+    "video_urls": ["YT URL", "YT URL2", "YT URL 3"]
+}
