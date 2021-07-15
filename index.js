@@ -10,6 +10,13 @@ const client = new Discord.Client()
 
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`)
+    client.user.setPresence({
+    status: 'idle',
+    activity: {
+        name: `hesam-tvs.ir`,
+        type: 'LISTENING',
+    }
+  })
     const voiceChannel = client.channels.cache.get(channel_id)
     voiceChannel.join().then(connection => {
         console.log("Joined voice channel")
