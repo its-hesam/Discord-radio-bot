@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "cnnd",
+  "author": "hesam TVS",
   "license": "GPL-3.0-only",
   "dependencies": {
     "discord.js": "^12.5.1",
