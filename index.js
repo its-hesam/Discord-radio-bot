@@ -38,16 +38,9 @@ client.on("ready", () => {
 client.on('message', message => {
       if (message.content === `${prefix}reset`) {
 	  if (message.author.id !== `${owner}`) return false;
-	  const reset_end = new Discord.MessageEmbed()
-     .setColor('RANDOM')
-    .setTitle('✅  ریست شدم✅')
-    .setTimestamp()
-    .setFooter(`Coded by: Hesam TVS `);
     client.destroy();
     client.login(TOKEN);
-    message.channel.send(reset_end);
-       
-     
+  
       }
     });
 
