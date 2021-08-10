@@ -1,3 +1,14 @@
+// =============== Port ===============
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => res.send('./hesam'));
+
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
+
+//BOT
+
 const Discord = require("discord.js")
 const ytdl = require("ytdl-core")
 const {
