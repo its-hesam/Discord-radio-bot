@@ -19,7 +19,7 @@ const {
 const client = new Discord.Client()
 
 const owner= "owner id"
-const prefix= "!!";
+const prefix= "!";
 
 
 client.on("ready", () => {
@@ -50,9 +50,9 @@ client.on('message', message => {
       if (message.content === `${prefix}reset`) {
 	  if (message.author.id !== `${owner}`) return false;
     client.destroy();
-    client.login(TOKEN);
+    client.login(token);
   
       }
     });
 
-client.login(TOKEN)
+client.login(token)
